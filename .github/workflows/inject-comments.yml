@@ -29,6 +29,7 @@ jobs:
             for entry in "comments.js|https://cissy0802.github.io/" \
                          "search.js|https://cissy0802.github.io/" \
                          "index-button.js|https://cissy0802.github.io/" \
+                         "lightbox.js|https://cissy0802.github.io/" \
                          "i18n-tts.js|"; do
               script="${entry%|*}"
               prefix="${entry##*|}"
