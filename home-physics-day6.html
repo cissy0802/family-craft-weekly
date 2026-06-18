@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>一起做：家里的物理</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:-apple-system,"Noto Sans SC","Segoe UI",Roboto,sans-serif;background:#fffaf0;color:#3d3328;line-height:1.85}
+.container{max-width:720px;margin:0 auto;padding:24px 20px 60px}
+header{text-align:center;padding:40px 0 24px}
+header h1{font-size:1.7rem;font-weight:800;color:#e8743b;letter-spacing:1px}
+header .meta{margin-top:10px;font-size:0.9rem;color:#8a7a66}
+.intro{background:#fff;border-radius:12px;padding:18px 20px;margin:20px 0 8px;box-shadow:0 1px 8px rgba(0,0,0,0.05);font-size:0.96rem;color:#5a4d3c}
+.card{background:#fff;border-radius:14px;padding:22px 22px 24px;margin:22px 0;box-shadow:0 2px 12px rgba(0,0,0,0.06)}
+.card h2{font-size:1.25rem;color:#e8743b;font-weight:800}
+.card h2 .en{display:block;font-size:0.82rem;color:#b0a08c;font-weight:600;margin-top:2px;letter-spacing:0.5px}
+.tags{margin:12px 0 16px}
+.tag{display:inline-block;background:#fdf0e6;color:#d96a2e;font-size:0.78rem;padding:3px 10px;border-radius:20px;margin:0 6px 6px 0;font-weight:600}
+.tag.g{background:#e6f4ee;color:#3d8c6a}
+.sec{margin:14px 0}
+.sec h3{font-size:0.98rem;font-weight:700;margin-bottom:4px;display:flex;align-items:center;gap:7px}
+.sec h3::before{content:"";width:8px;height:8px;border-radius:50%;background:#e8743b;flex-shrink:0}
+.sec.age3 h3::before{background:#f0a030}
+.sec.age9 h3::before{background:#4aa37a}
+.sec.both h3::before{background:#e8743b}
+.sec.why h3::before{background:#9b8cd0}
+.sec p{font-size:0.95rem;color:#4a4031}
+.safety{background:#fff6f2;border-left:4px solid #e8743b;border-radius:6px;padding:12px 14px;font-size:0.9rem;color:#6a5544;margin:10px 0}
+.safety b{color:#d04a2a}
+.diagram{display:block;margin:14px auto;max-width:340px}
+ul{margin:4px 0 4px 20px}
+li{font-size:0.94rem;margin:3px 0}
+.pick{background:#e6f4ee;border-radius:14px;padding:20px 22px;margin-top:28px}
+.pick h2{color:#3d8c6a;font-size:1.15rem;margin-bottom:8px}
+.pick p{font-size:0.96rem;color:#3f5a4d}
+footer{text-align:center;padding:30px 0 6px;font-size:0.82rem;color:#c4b5a0}
+@media(max-width:600px){header h1{font-size:1.4rem}.card{padding:18px 16px}}
+</style>
+</head>
+<body>
+<div class="container">
+<header>
+  <h1>一起做：家里的物理</h1>
+  <div class="meta">2026-06-18 · Day 6</div>
+</header>
+
+<div class="intro">物理听着高大上，其实就藏在「东西为什么会动、会停、往下掉」里。这一期不用专门器材——一摞书、几个杯子、冰箱磁贴、一根筷子，就能把家里变成小实验室。我们玩 4 件事：让东西从斜坡滚下来比快慢、把杂物丢进水里猜浮还是沉、用磁铁隔空「使法术」、再用一根棍子撬起重物。每件都先让孩子猜，再动手验证——「猜错了」恰恰最值钱，那一愣就是大脑在重新搭线。找块空地，开玩。</div>
+
+<!-- 活动 1 -->
+<div class="card">
+  <h2>1. 斜坡与滚动：谁滚得快<span class="en">Ramps &amp; Rolling: Who Rolls Faster</span></h2>
+  <div class="tags"><span class="tag">⏱ 15–20 分钟</span><span class="tag g">材料：书 + 木板 + 小车球</span></div>
+  <div class="sec">
+    <h3>准备与安全</h3>
+    <p>材料：一块平板当斜坡（菜板、绘本硬壳、平整的纸箱片都行），下面垫几本书撑起一头，就成了斜坡。再找一堆能滚的东西：玩具小车、皮球、易拉罐、橘子、卷成筒的纸。玩法：把东西放在斜坡顶端同时松手，看谁先到底。然后改变坡度（多垫几本书让坡更陡），再比一次；换不同重量、不同形状的东西，看结果变不变。每比一次先让孩子<b>大声猜</b>：哪个快？</p>
+    <div class="safety"><b>安全：</b>斜坡别搭太高太陡，板子垫稳别滑落砸脚；玻璃珠、小钢珠这类<b>小而硬的东西 3 岁不要用</b>（误吞，且滚得快易伤眼），改用大皮球、玩具车。沉重物体别从陡坡放，砸到脚很疼。地上的滚动物及时捡走，免得踩上摔倒。</div>
+  </div>
+  <svg class="diagram" viewBox="0 0 300 120" xmlns="http://www.w3.org/2000/svg" aria-label="斜坡滚动示意：板子一头垫高，球从顶端滚下">
+    <line x1="20" y1="100" x2="280" y2="100" stroke="#8a7a66" stroke-width="2"/>
+    <rect x="30" y="70" width="40" height="30" fill="#fdf0e6" stroke="#e8743b" stroke-width="1.5"/>
+    <text x="50" y="90" font-size="9" fill="#8a7a66" text-anchor="middle">书</text>
+    <line x1="35" y1="70" x2="250" y2="100" stroke="#e8743b" stroke-width="3"/>
+    <circle cx="70" cy="78" r="11" fill="#e6f4ee" stroke="#3d8c6a" stroke-width="2"/>
+    <path d="M70 78 L95 90" stroke="#9b8cd0" stroke-width="1.5" stroke-dasharray="3 3"/>
+    <text x="150" y="118" font-size="10" fill="#8a7a66" text-anchor="middle">坡越陡，滚得越快</text>
+  </svg>
+  <div class="sec age3"><h3>3 岁版</h3><p>她负责「放手开滚」——把球放在坡顶，听口令「预备—放！」松手，看它咕噜噜冲下去。这一下「松手就动」的因果对她超有吸引力，能反复玩几十次不腻。让她挑「今天用哪个球」，再追着滚下去的球跑去捡回来——捡球本身就是大运动量的好玩法。</p></div>
+  <div class="sec age9"><h3>9 岁版</h3><p>她负责「做对照实验」——一次只改一个条件：先固定坡度，比不同的东西；再固定同一个球，比不同坡度。挑战她预测并解释：为什么圆的滚得动、方的滚不动？为什么坡越陡越快？（更陡时，重力「往下拉」的分量更多用在让它前进上）她可以拿尺量「到底用了几秒」，记下来比较。</p></div>
+  <div class="sec both"><h3>姐妹一起</h3><p>姐姐当「裁判 + 记录员」负责喊口令、判断谁先到底、把结果记在纸上，妹妹当「发射员 + 捡球员」负责放手开滚、把滚远的东西捡回来（互不抢活：判断和记录归姐姐，开滚和奔跑归妹妹）。两人办一场「滚动大赛」，给不同的球排名，最后一起搭一条更长更弯的赛道，让球转个弯再到底。</p></div>
+  <div class="sec why"><h3>背后的为什么 + 变式</h3><p>东西放在斜坡上，是地球重力在「往下拽」它；坡越陡，这股劲越多地变成往前冲的力，所以越快。圆的能把这股力变成滚动，方的只会卡住——形状决定它会滚还是会停。变式：坡底放个空纸盒当「球门」，看谁能让球正好停进盒里，练对力道和距离的感觉。</p></div>
+</div>
+
+<!-- 活动 2 -->
+<div class="card">
+  <h2>2. 浮与沉：猜猜它沉不沉<span class="en">Float or Sink: Make Your Guess</span></h2>
+  <div class="tags"><span class="tag">⏱ 15 分钟</span><span class="tag g">材料：一盆水 + 杂物</span></div>
+  <div class="sec">
+    <h3>准备与安全</h3>
+    <p>材料：一个大盆或洗手池接半盆水，再到家里搜罗一堆小东西——勺子、积木、橡皮、瓶盖、橘子、葡萄、硬币、塑料玩具、一团锡纸、一小块胡萝卜。玩法：每样东西下水前，全家先<b>各自猜</b>「浮还是沉」，再丢进去验证。猜对的拍手，猜错的更要欢呼——意外才好玩。可以把东西分两堆：「浮的」一堆、「沉的」一堆，看看它们有什么共同点。</p>
+    <div class="safety"><b>安全：</b>玩水务必<b>全程有人在场</b>，3 岁哪怕浅水也不能独自留在水边。地面易滑，脚下铺块毛巾，玩完立刻擦干。别用会被泡坏的东西（电子产品、纸质书）。小硬币、小珠子<b>3 岁别用</b>（捞起来塞嘴），换大件玩具。袖子卷起来，围个小围裙省得换衣服。</div>
+  </div>
+  <div class="sec age3"><h3>3 岁版</h3><p>她负责「扑通丢进去 + 捞出来」——把东西一个个丢进水里听「扑通」，看它浮上来还是沉下去，再用小漏勺或手把它们捞回来。玩水、捞东西这股触感和声音就是她的全部乐趣。你帮她说出来：「这个浮——在上面！这个沉——到底了！」用身体动作（手往上抬/往下压）帮她记住这两个词。</p></div>
+  <div class="sec age9"><h3>9 岁版</h3><p>她负责「找规律 + 破例外」——分完浮沉两堆后，找共同点（是不是越重越沉？大的就一定沉吗？）。给她两个会打破直觉的挑战：一大块木头浮、一颗小钉子沉，说明<b>不是看大小和轻重，是看「同样大小下哪个更重」（密度）</b>；再给她一团锡纸——揉成实心球会沉，捏成小船却能浮，让她想为什么（船把空气也圈进来了，整体变「轻」了）。</p></div>
+  <div class="sec both"><h3>姐妹一起</h3><p>姐姐当「实验主持」负责报出下一件东西、统计大家的猜测、归类摆放，妹妹当「投放员 + 打捞员」负责丢东西、捞东西、宣布「浮还是沉」（互不抢活：归类和记录归姐姐，下水和打捞归妹妹）。合作搞一个「锡纸小船载重赛」：捏一只锡纸船，往里轻轻放硬币（这步姐姐放、妹妹数），看放几枚才沉，比谁的船能装最多。</p></div>
+  <div class="sec why"><h3>背后的为什么 + 变式</h3><p>东西浮还是沉，比的不是大小轻重，是「同样大小下它和水谁更重」——比水轻就浮，比水重就沉，这叫密度。锡纸球会沉，但捏成船兜进空气，整体就比水轻了，所以钢做的大船也能浮在海上。变式：往水里加很多盐搅匀，再放刚才沉底的鸡蛋或葡萄，会发现它们浮起来了——水变咸变「重」，托得起更多东西。</p></div>
+</div>
+
+<!-- 活动 3 -->
+<div class="card">
+  <h2>3. 磁铁游戏：隔空使法术<span class="en">Magnet Games: Spooky Action</span></h2>
+  <div class="tags"><span class="tag">⏱ 15 分钟</span><span class="tag g">材料：磁铁 + 回形针</span></div>
+  <div class="sec">
+    <h3>准备与安全</h3>
+    <p>材料：冰箱贴、或文具磁铁、或音箱里拆出的小磁铁都行；再加一把回形针、几枚硬币、一张纸、一个塑料杯。玩法很多：① <b>寻宝</b>——拿磁铁在家里走一圈，找出哪些东西被吸住（铁的勺子、螺丝、门），哪些不理它（塑料、木头、铝罐）；② <b>隔空操控</b>——把回形针放纸上，磁铁在纸底下移动，回形针就「自己」跟着跑；③ <b>同极相斥</b>——两块磁铁互相靠近，感受那股「推开」的看不见的力。</p>
+    <div class="safety"><b>安全：</b>最大风险是<b>误吞</b>——小而强的磁铁（尤其亮晶晶的钕磁铁/巴克球）一旦吞下两颗以上，会隔着肠壁互相吸住，非常危险要急诊。<b>3 岁只用大块、吞不下的冰箱贴磁铁，强力小磁铁收好别让她碰</b>。磁铁别靠近手机、银行卡、老式电视；强磁铁互吸会「啪」地夹到手指。</div>
+  </div>
+  <svg class="diagram" viewBox="0 0 300 110" xmlns="http://www.w3.org/2000/svg" aria-label="隔空操控示意：磁铁在纸下移动，纸上回形针跟着走">
+    <line x1="30" y1="55" x2="270" y2="55" stroke="#8a7a66" stroke-width="2"/>
+    <text x="150" y="48" font-size="9" fill="#8a7a66" text-anchor="middle">一张纸</text>
+    <rect x="120" y="58" width="34" height="16" rx="2" fill="#9b8cd0"/>
+    <text x="137" y="70" font-size="8" fill="#fff" text-anchor="middle">磁铁</text>
+    <circle cx="137" cy="44" r="5" fill="none" stroke="#e8743b" stroke-width="2.5"/>
+    <path d="M137 58 L137 50" stroke="#9b8cd0" stroke-width="1.5" stroke-dasharray="2 2"/>
+    <path d="M170 58 L210 58" stroke="#3d8c6a" stroke-width="1.5" stroke-dasharray="4 3" marker-end="url(#a)"/>
+    <defs><marker id="a" markerWidth="6" markerHeight="6" refX="5" refY="3" orient="auto"><path d="M0 0 L6 3 L0 6 Z" fill="#3d8c6a"/></marker></defs>
+    <text x="150" y="100" font-size="10" fill="#8a7a66" text-anchor="middle">磁铁在下面走，回形针在上面跟着跑</text>
+  </svg>
+  <div class="sec age3"><h3>3 岁版</h3><p>她负责「拿着磁铁去吸」——举着大冰箱贴在家里到处碰，碰到铁的会「啪」地黏住，碰到别的没反应，那股「自己吸住了」的神奇感她百试不厌。你陪她一起喊「吸住啦！」「这个不行～」。最爱的玩法：把回形针撒在桌上，让她用磁铁一下「收」起一大串，像钓鱼一样拎起来。</p></div>
+  <div class="sec age9"><h3>9 岁版</h3><p>她负责「探究边界」——列个清单：家里哪些东西被吸、哪些不被吸，再找规律（被吸的几乎都是铁做的，铝、铜、某些不锈钢不吸）。挑战：磁力能<b>隔着</b>什么起作用？隔着纸、水杯、手、几本书还行不行？她会发现磁力能穿过非铁的东西，但隔得越厚越弱。进阶：用磁铁在纸下走迷宫，让纸上的回形针走出去。</p></div>
+  <div class="sec both"><h3>姐妹一起</h3><p>姐姐当「迷宫操作手」在纸底下移动磁铁，妹妹当「投放与观察员」负责把回形针放到起点、盯着它有没有掉队、喊「左一点！」（互不抢活：纸下精细操控归姐姐，放料和指挥归妹妹）。合作做一个「磁铁小剧场」：在纸上画条河，剪个纸小鸭别上回形针，姐姐在纸下推磁铁让小鸭「游」过河，妹妹配音讲故事。</p></div>
+  <div class="sec why"><h3>背后的为什么 + 变式</h3><p>磁铁周围有一圈看不见的「磁场」，能隔着空气、纸、水拉住铁做的东西，所以回形针不用碰到也跟着跑。磁铁两头一头叫 N 一头叫 S，相同的两头互相推、不同的互相吸——这股推和吸就是「磁力」。变式：用线拴住回形针、另一头按在桌上，磁铁慢慢靠近把回形针「吊」在半空不碰到磁铁，那根悬空的针，孩子会觉得像变魔术。</p></div>
+</div>
+
+<!-- 活动 4 -->
+<div class="card">
+  <h2>4. 简单机械：一根棍撬起重物<span class="en">Simple Machines: Lift with a Lever</span></h2>
+  <div class="tags"><span class="tag">⏱ 15–20 分钟</span><span class="tag g">材料：尺子 + 笔 + 硬币</span></div>
+  <div class="sec">
+    <h3>准备与安全</h3>
+    <p>材料：一把硬尺（或长木棍、筷子）、一支圆笔或一卷胶带当「支点」、几枚硬币或小玩具当重物。<b>玩杠杆</b>：把笔横放当支点，尺子架在上面像跷跷板，一头放重物，另一头按下去就能把重物翘起来——把支点往重物那边挪一挪，会发现「越省力」。再玩个<b>斜面搬运</b>：用斜坡（活动 1 的板子）把重东西推上桌，比直接抬省力。还能找找家里的简单机械：剪刀、瓶起子、门把手、螺丝，都是。</p>
+    <div class="safety"><b>安全：</b>钝尺子和笔本身安全；但杠杆撬动时<b>翘起的一头会突然弹起</b>，别让脸凑太近，重物别用又重又硬的（砸下或弹飞会伤人），用硬币、小积木就好。3 岁玩时支点和重物都换成轻软的。家里真正的工具（真剪刀、起子）让孩子认一认，使用归大人。</div>
+  </div>
+  <svg class="diagram" viewBox="0 0 300 110" xmlns="http://www.w3.org/2000/svg" aria-label="杠杆示意：尺子架在笔上当跷跷板，一头压下翘起另一头重物">
+    <line x1="20" y1="95" x2="280" y2="95" stroke="#8a7a66" stroke-width="2"/>
+    <polygon points="150,95 140,78 160,78" fill="#9b8cd0"/>
+    <text x="150" y="108" font-size="9" fill="#8a7a66" text-anchor="middle">支点</text>
+    <line x1="55" y1="60" x2="245" y2="92" stroke="#e8743b" stroke-width="3"/>
+    <rect x="48" y="48" width="22" height="14" fill="#e6f4ee" stroke="#3d8c6a" stroke-width="1.5"/>
+    <text x="59" y="42" font-size="9" fill="#3d8c6a" text-anchor="middle">重物</text>
+    <path d="M238 90 L238 78" stroke="#d96a2e" stroke-width="2" marker-end="url(#d)"/>
+    <defs><marker id="d" markerWidth="7" markerHeight="7" refX="3" refY="6" orient="auto"><path d="M0 0 L6 0 L3 6 Z" fill="#d96a2e"/></marker></defs>
+    <text x="238" y="74" font-size="9" fill="#d96a2e" text-anchor="middle">按</text>
+  </svg>
+  <div class="sec age3"><h3>3 岁版</h3><p>她负责「按下去、看它飞」——尺子一头放个小玩具，她使劲一拍另一头，玩具「嗖」地蹦起来，这股「我一按它就飞」的成就感让她笑个不停。当成发射小玩具的弹射器玩就好，不用懂原理。也让她玩斜面：把小车推上斜坡再放手滑下来，体会「推上去费劲、滑下来轻松」。</p></div>
+  <div class="sec age9"><h3>9 岁版</h3><p>她负责「找省力的位置」——固定重物，把支点（笔）一点点往重物那头挪，感受按起来越来越轻松；再挪回中间，又变费力。挑战她说出规律：<b>支点离重物越近、离手越远，越省力</b>。提问：跷跷板上为什么轻的人坐远点能压住重的人？（同一个道理）她还能发现：省了力，手这头却要压下更长的距离才行。</p></div>
+  <div class="sec both"><h3>姐妹一起</h3><p>姐姐当「工程师」负责摆支点、调位置、决定重物放哪，妹妹当「动力员 + 计数员」负责按下尺子那头、数翘起来的玩具、报告「这次轻还是重」（互不抢活：调试位置归姐姐，出力和数数归妹妹）。合作做个「投石机」：尺子加支点，一头放小球，妹妹拍另一头把球弹出去，姐姐挪支点调远近，比谁能把球弹进远处的盒子。</p></div>
+  <div class="sec why"><h3>背后的为什么 + 变式</h3><p>杠杆是人类最早的「省力法宝」：一根棍加一个支点，手在长的一头小小用力，就能撬动短头的大重物——省下的力，是用「手走更长距离」换的，天下没有白省的力。剪刀、起子、跷跷板、门把手，全是杠杆。变式：用扫帚当超长杠杆，一头压在沙发腿下，找全家最小的人去压另一头远端，看她能不能一个人「抬」起沙发角，亲身体会杠杆的威力。</p></div>
+</div>
+
+<div class="pick">
+  <h2>本周就选一个</h2>
+  <p>只做一件、最省事的，就<b>浮与沉</b>——接半盆水，把家里随手的小东西丢进去猜浮还是沉，零准备、零成本，玩完把水一倒就收拾干净。它最大的好处是「人人都会猜错」：大木头浮、小钉子沉，锡纸揉成球沉、捏成船却浮，每次意外都让孩子「咦」一下。3 岁负责扑通丢和打捞，9 岁挑战锡纸船载重、加盐让鸡蛋浮起来——同一盆水能玩出好几层惊喜，是这一期最轻松的入口。</p>
+</div>
+
+<footer>过程比结果重要，陪伴比教育重要。</footer>
+</div>
+</body>
+</html>
