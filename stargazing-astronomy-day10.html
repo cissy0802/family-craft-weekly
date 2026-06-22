@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>一起做：观星与天文</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:-apple-system,"Noto Sans SC","Segoe UI",Roboto,sans-serif;background:#fffaf0;color:#3d3328;line-height:1.85}
+.container{max-width:720px;margin:0 auto;padding:24px 20px 60px}
+header{text-align:center;padding:40px 0 24px}
+header h1{font-size:1.7rem;font-weight:800;color:#e8743b;letter-spacing:1px}
+header .meta{margin-top:10px;font-size:0.9rem;color:#8a7a66}
+.intro{background:#fff;border-radius:12px;padding:18px 20px;margin:20px 0 8px;box-shadow:0 1px 8px rgba(0,0,0,0.05);font-size:0.96rem;color:#5a4d3c}
+.card{background:#fff;border-radius:14px;padding:22px 22px 24px;margin:22px 0;box-shadow:0 2px 12px rgba(0,0,0,0.06)}
+.card h2{font-size:1.25rem;color:#e8743b;font-weight:800}
+.card h2 .en{display:block;font-size:0.82rem;color:#b0a08c;font-weight:600;margin-top:2px;letter-spacing:0.5px}
+.tags{margin:12px 0 16px}
+.tag{display:inline-block;background:#fdf0e6;color:#d96a2e;font-size:0.78rem;padding:3px 10px;border-radius:20px;margin:0 6px 6px 0;font-weight:600}
+.tag.g{background:#e6f4ee;color:#3d8c6a}
+.sec{margin:14px 0}
+.sec h3{font-size:0.98rem;font-weight:700;margin-bottom:4px;display:flex;align-items:center;gap:7px}
+.sec h3::before{content:"";width:8px;height:8px;border-radius:50%;background:#e8743b;flex-shrink:0}
+.sec.age3 h3::before{background:#f0a030}
+.sec.age9 h3::before{background:#4aa37a}
+.sec.both h3::before{background:#e8743b}
+.sec.why h3::before{background:#9b8cd0}
+.sec p{font-size:0.95rem;color:#4a4031}
+.safety{background:#fff6f2;border-left:4px solid #e8743b;border-radius:6px;padding:12px 14px;font-size:0.9rem;color:#6a5544;margin:10px 0}
+.safety b{color:#d04a2a}
+ul{margin:4px 0 4px 20px}
+li{font-size:0.94rem;margin:3px 0}
+.figure{text-align:center;margin:14px 0 6px}
+.figure svg{max-width:100%;height:auto;background:#1b2233;border-radius:10px;padding:10px}
+.figure .cap{font-size:0.82rem;color:#8a7a66;margin-top:6px}
+.pick{background:#e6f4ee;border-radius:14px;padding:20px 22px;margin-top:28px}
+.pick h2{color:#3d8c6a;font-size:1.15rem;margin-bottom:8px}
+.pick p{font-size:0.96rem;color:#3f5a4d}
+footer{text-align:center;padding:30px 0 6px;font-size:0.82rem;color:#c4b5a0}
+@media(max-width:600px){header h1{font-size:1.4rem}.card{padding:18px 16px}}
+</style>
+</head>
+<body>
+<div class="container">
+<header>
+  <h1>一起做：观星与天文</h1>
+  <div class="meta">2026-06-22 · Day 10</div>
+</header>
+
+<div class="intro">抬头看天，是门槛最低的「远方」——不用门票、不用开车，阳台、小区空地就是观测站。这周不追求认全多少星，就做四件事：连着几晚盯住月亮看它变胖变瘦、找到那把谁都认得的「大勺子」、做一张能转的星图、再用家里几样小东西把「宇宙有多大」摆给孩子看。城里光污染重也没关系——月亮和最亮的几颗星雾霾天都挡不住。重点不是考级，是养成一个习惯：晚饭后牵手出门，一起抬一次头。</div>
+
+<!-- 活动 1 -->
+<div class="card">
+  <h2>1. 追月亮：画一周月相<span class="en">Moon Diary: Draw the Phases</span></h2>
+  <div class="tags"><span class="tag">⏱ 每晚 5 分钟，连记 1-2 周</span><span class="tag g">材料：纸笔</span></div>
+  <div class="sec">
+    <h3>准备与安全</h3>
+    <p>材料：一张纸画 14 个小圆圈（或每天画一个），一支铅笔、一支黑笔。做法：选一个能看到月亮的窗或阳台，每天晚上同一个时间（比如八点）去看一眼月亮，把它「缺」的样子照着涂黑——满月就全空着、月牙就涂掉大半。记上日期。连记一两周，把这排小圆圈连起来看，月亮变胖变瘦的节奏就出来了。当晚多云看不见就标个「阴」，不用补。</p>
+    <div class="figure">
+      <svg viewBox="0 0 460 80" role="img" aria-label="月相变化示意：新月、上弦月、满月、下弦月">
+        <circle cx="40" cy="40" r="22" fill="#2b3450" stroke="#cdd6ea" stroke-width="1.5"/>
+        <path d="M80 18 A22 22 0 0 1 80 62 Z" fill="#f4f1e0"/><circle cx="80" cy="40" r="22" fill="none" stroke="#cdd6ea" stroke-width="1.5"/>
+        <circle cx="150" cy="40" r="22" fill="#f4f1e0" stroke="#cdd6ea" stroke-width="1.5"/>
+        <path d="M260 62 A22 22 0 0 1 260 18 Z" fill="#f4f1e0"/><circle cx="260" cy="40" r="22" fill="none" stroke="#cdd6ea" stroke-width="1.5"/>
+        <path d="M180 18 a22 22 0 0 1 0 44 a14 22 0 0 0 0 -44 Z" fill="#f4f1e0"/>
+        <path d="M225 18 a22 22 0 0 0 0 44 a14 22 0 0 1 0 -44 Z" fill="#f4f1e0"/>
+        <text x="40" y="76" fill="#9fb0d0" font-size="10" text-anchor="middle">新月</text>
+        <text x="115" y="76" fill="#9fb0d0" font-size="10" text-anchor="middle">渐圆</text>
+        <text x="150" y="76" fill="#9fb0d0" font-size="10" text-anchor="middle">满月</text>
+        <text x="225" y="76" fill="#9fb0d0" font-size="10" text-anchor="middle">渐缺</text>
+        <text x="260" y="76" fill="#9fb0d0" font-size="10" text-anchor="middle">残月</text>
+      </svg>
+      <div class="cap">月亮一个月圆缺一轮，照着天上的样子涂就行</div>
+    </div>
+    <div class="safety"><b>安全：</b>月光不刺眼，看月亮无光线风险，<b>但绝不能用望远镜或放大镜对着太阳</b>（跟 9 岁讲死）。阳台上别让 3 岁攀爬护栏、探身往外够，大人站她身后扶着。下楼走夜路看脚下、带个小手电。天冷加衣，看完就回。</p></div>
+  </div>
+  <div class="sec age3"><h3>3 岁版</h3><p>她负责「找月亮 + 报形状」：每晚牵她到窗边,一起喊「月亮在哪儿？」找到了让她说今天是「圆圆的」还是「弯弯的香蕉」「小船」。她不用画准，递给她黑笔在圆圈里随便涂涂就行。能每天去看一眼、记得「昨天是弯的」，对三岁已经很了不起。</p></div>
+  <div class="sec age9"><h3>9 岁版</h3><p>她负责「当记录官」：每天同一时间观测、照实涂月相、标日期，争取连记满一轮（约 29 天）。挑战回答：月亮自己会发光吗？（不会，它反射太阳光）那为什么会缺？（我们看到的是它被太阳照亮的那一面，角度变了，亮的部分就时多时少）。进阶：留意月亮升起的位置和时间每天都在变，记下来找规律。</p></div>
+  <div class="sec both"><h3>姐妹一起</h3><p>姐姐当「画师」负责涂当晚的月相、写日期；妹妹当「瞭望员」负责第一个冲到窗边找到月亮、大声报「找到啦！像勺子！」。两人合用一张「月亮日历」，谁那晚先想起来要去看月亮，就当当天的「队长」。记满一轮，一起从头数一遍：从月牙到满月再回月牙，原来是这么一条线。</p></div>
+  <div class="sec why"><h3>背后的为什么 + 变式</h3><p>月亮不发光，是面大镜子反射太阳的光。它绕着地球转，我们看到被照亮的那半边时正对（满月）、时侧着（月牙），圆缺就这么来的，转一圈约一个月。变式：关上灯，用手电当太阳、橙子当月亮、孩子的头当地球，让她举着橙子慢慢转一圈，亲眼看「月相」怎么在手里变出来。</p></div>
+</div>
+
+<!-- 活动 2 -->
+<div class="card">
+  <h2>2. 找到大勺子：认北斗七星<span class="en">Find the Big Dipper</span></h2>
+  <div class="tags"><span class="tag">⏱ 晴夜 15 分钟</span><span class="tag g">材料：零（可选手机识星 App）</span></div>
+  <div class="sec">
+    <h3>准备与安全</h3>
+    <p>材料：基本不用——一双眼睛、一个晴朗的夜晚，越暗越好（躲开正下方的路灯）。可选一个手机识星 App（对着天空就能显示星座名）当对答案用，但<b>先用眼睛找，别一上来就盯手机</b>。做法：找北斗七星——七颗较亮的星连成一个「大勺子」（勺头四颗围成方斗，勺柄三颗弯出去），是北方天空最好认的图案。找到后，用勺口那两颗星「指」出去约五倍距离，就能找到北极星——那颗一整夜几乎不动、永远指着正北的星。</p>
+    <div class="figure">
+      <svg viewBox="0 0 420 150" role="img" aria-label="北斗七星与北极星示意图">
+        <circle cx="60" cy="110" r="3.2" fill="#fff"/><circle cx="110" cy="120" r="3.2" fill="#fff"/>
+        <circle cx="120" cy="80" r="3.2" fill="#fff"/><circle cx="70" cy="70" r="3.2" fill="#fff"/>
+        <circle cx="175" cy="70" r="2.8" fill="#fff"/><circle cx="225" cy="55" r="2.8" fill="#fff"/><circle cx="280" cy="60" r="3" fill="#fff"/>
+        <polyline points="60,110 110,120 120,80 70,70 60,110" fill="none" stroke="#5b6a8c" stroke-width="1.2"/>
+        <polyline points="70,70 120,80 175,70 225,55 280,60" fill="none" stroke="#5b6a8c" stroke-width="1.2"/>
+        <line x1="70" y1="70" x2="370" y2="30" stroke="#9b8cd0" stroke-width="1" stroke-dasharray="4 4"/>
+        <circle cx="370" cy="30" r="4" fill="#ffe08a"/>
+        <text x="95" y="145" fill="#9fb0d0" font-size="11" text-anchor="middle">大勺子（北斗七星）</text>
+        <text x="370" y="52" fill="#ffe08a" font-size="11" text-anchor="middle">北极星</text>
+      </svg>
+      <div class="cap">沿勺口两颗星往外延伸约五倍，就指到北极星</div>
+    </div>
+    <div class="safety"><b>安全：</b>夜间户外第一位是<b>看路别绊倒</b>，远离天台边缘，3 岁全程牵手或抱着，就在小区里别去偏僻处。仰头久了会头晕，坐下或躺平看更舒服。<b>识星 App 屏幕调到最暗</b>，亮屏会让眼睛看不见星星（适应黑暗要十几分钟）。蚊虫季先喷好防蚊。</p></div>
+  </div>
+  <div class="sec age3"><h3>3 岁版</h3><p>她负责「数星星 + 连线」：天上那么多亮点，让她伸手指着数「一、二、三……」，能数到几算几，重在抬头找。你把勺子轮廓比划给她——「这七颗连起来像不像勺子？」她点头认出来就赢了。再让她找「最亮的那颗」，简单又有成就感。</p></div>
+  <div class="sec age9"><h3>9 岁版</h3><p>她负责「当向导」：独立找出北斗七星，再用勺口两颗星找到北极星，然后告诉全家「那边是正北」。挑战回答：为什么北极星不动、别的星都绕着它转？（地球在自转，北极星正好在地轴指着的方向上，像车轮中心的轴）。进阶：古人靠北极星辨方向航海、走夜路，让她想想没有手机的年代人怎么不迷路。</p></div>
+  <div class="sec both"><h3>姐妹一起</h3><p>姐姐当「领航员」负责找到北斗和北极星、讲给妹妹听；妹妹当「手电官」负责数星星、在姐姐找到时举手指给爸妈看。两人玩「指北」游戏：姐姐找到北极星后,全家一起转向正北，妹妹喊「立正！朝北！」。每个晴夜复习一次，看姐姐能不能越找越快——找到大勺子,就找到了整片北方天空的地标。</p></div>
+  <div class="sec why"><h3>背后的为什么 + 变式</h3><p>满天的星看着乱，其实祖先早把它们连成图案好记好认。北斗七星一年四季都在北方天上，勺口永远指着北极星，是天然的「指南针」。星座只是我们从地球这个角度看到的「连连看」，那些星其实离得远近差很多。变式：记下北斗的朝向，过两三个小时再看，它绕着北极星「转」了一点——那是地球在自转，转给你看的。</p></div>
+</div>
+
+<!-- 活动 3 -->
+<div class="card">
+  <h2>3. 自制旋转星图<span class="en">Make a Spinning Star Wheel</span></h2>
+  <div class="tags"><span class="tag">⏱ 制作 25 分钟</span><span class="tag g">材料：纸、图钉/夹子</span></div>
+  <div class="sec">
+    <h3>准备与安全</h3>
+    <p>材料：两张卡纸、一支笔、剪刀、一枚图钉或两脚钉（没有就用扣子加线打结固定），可选夜光星星贴纸。做法：做一个最简化的「星图盘」——下面一张圆纸盘沿外圈写上 1-12 个月份；上面一张同样大的圆纸挖一个扇形窗口；两张圆心用图钉别在一起，能转。把这阵子认识的星（先放北斗七星就够）画在下盘对应位置上。转动上盘对到「今天的月份」，窗口里露出来的就是今晚大概能看到的星。做得简陋没关系，能转、能对月份就成立。</p>
+    <div class="safety"><b>安全：</b>这一关有<b>剪刀和图钉，是成人把关的环节</b>：剪圆、扎中心孔由大人来或大人握着孩子的手一起做；图钉用完<b>立刻收进盒子</b>，绝不留在桌上或地上——3 岁会捡。9 岁可以用安全剪刀剪外圈，尖头别对人。两脚钉的金属脚掰好后压平，别留翘起的尖。</p></div>
+  </div>
+  <div class="sec age3"><h3>3 岁版</h3><p>她负责「装饰星空」：在下盘的黑纸（或涂黑的纸）上贴夜光星星贴纸、用白笔点小点点当星星，把盘子点满。再帮忙转一转上盘玩「捉迷藏」——转一下,星星藏起来了；再转,又出来了。剪刀图钉一概不碰，她的活儿是涂、贴、转。</p></div>
+  <div class="sec age9"><h3>9 岁版</h3><p>她负责「画对位置 + 标月份」：把月份均匀写在外圈、把北斗七星（和想加的星）画到下盘上，组装好这台「星图机」。挑战回答：为什么不同季节晚上看到的星不一样？（地球绕太阳转，每个季节朝向的星空方向不同，就像绕着篝火走，背后的风景一直在换）。进阶：用做好的星图预测「下个月这个时候，北斗会转到哪」，再到那天验证。</p></div>
+  <div class="sec both"><h3>姐妹一起</h3><p>姐姐当「工程师」负责设计、剪裁、画星和组装；妹妹当「美工」负责给星空盘涂黑、贴星星、转盘测试。做好后两人合作「使用说明」：妹妹报今天几月，姐姐转到对应位置、念出窗口里有什么星。带着这台自制星图下楼，姐姐对照真实天空、妹妹举着盘子,看做的和天上的对不对得上。</p></div>
+  <div class="sec why"><h3>背后的为什么 + 变式</h3><p>因为地球绕太阳跑，每个季节晚上正对的星空不一样——夏天和冬天的夜空是两套星。星图盘就是把「哪个月看哪片天」做成一个能转的小机器，几百年前的水手就靠类似的工具找路。变式：带着星图盘反复用，每对上一个新星座就在盘上添一笔，一年下来这张自画的星图会越来越满，成为「我家的星空地图」。</p></div>
+</div>
+
+<!-- 活动 4 -->
+<div class="card">
+  <h2>4. 宇宙有多大：摆出来给她看<span class="en">How Big Is Space? Lay It Out</span></h2>
+  <div class="tags"><span class="tag">⏱ 20 分钟</span><span class="tag g">材料：水果/球类</span></div>
+  <div class="sec">
+    <h3>准备与安全</h3>
+    <p>材料：家里大小不一的圆东西——西瓜/篮球（太阳）、黄豆或小米粒（地球）、芝麻（月亮）、葡萄/橙子（木星）等，外加一卷皮尺或几步路的空间。做法：用东西的大小和距离，把抽象的「宇宙很大」摆成看得见的东西。第一步比大小：太阳是西瓜，地球只是旁边一粒黄豆——光这一下孩子就震住了。第二步比距离：如果地球（黄豆）放在脚边，月亮（芝麻）大概放在 30 厘米外，而太阳（西瓜）要放到约 25 米开外（下楼到小区另一头）。让她亲自走过去摆，用脚量这段距离。</p>
+    <div class="safety"><b>安全：</b><b>黄豆、小米、芝麻这类小颗粒严防 3 岁误食、塞鼻塞耳</b>——这条最要紧，全程在大人眼皮底下，玩完立刻收走清点。有 3 岁在场时干脆用大小不同的瓶盖、积木块替代豆粒更稳妥。下楼摆「太阳」时看车、牵好妹妹。</p></div>
+  </div>
+  <div class="sec age3"><h3>3 岁版</h3><p>她负责「比大小 + 当跑腿」：把西瓜和黄豆放一起，让她摸、让她说「哪个大、哪个小」——大太阳、小地球，简单直接。摆距离时让她当「送货员」，捏着「月亮」（用瓶盖代替芝麻防误食）走过去放在你指的地方。她不用懂尺度，只要感受到「太阳好大、要走好远」。</p></div>
+  <div class="sec age9"><h3>9 岁版</h3><p>她负责「按比例算 + 布展」：理解这是「等比例缩小」，太阳缩成西瓜，别的也按同样倍数缩。挑战回答：太阳那么大看着却小？（太远了，远的东西看着就小）。进阶：光从太阳到地球要 8 分钟，而你看到的星星，光可能跑了几百上千年才到——「抬头看星空，是在看过去」。</p></div>
+  <div class="sec both"><h3>姐妹一起</h3><p>姐姐当「天文馆讲解员」负责摆位置、讲为什么这么摆；妹妹当「比例小助手」负责拿东西、跑距离、当「行星」站到对应位置上。两人合演「太阳系散步」：姐姐报「地球，出发！」，妹妹捧着「地球」从「太阳」旁边按比例走开。摆完一起后退几步看全景——原来地球在宇宙里小成这样。</p></div>
+  <div class="sec why"><h3>背后的为什么 + 变式</h3><p>宇宙大到数字说出来没感觉，但摆成西瓜和黄豆、走出 25 米，身体就懂了——这叫「比例尺」，地图、模型都靠它把大东西缩到看得见。摆出来还会发现：行星之间几乎全是空的。变式：把太阳缩成一个乒乓球，算一算这时地球该多小（一粒沙）、离多远（约 3.5 米）——越缩越体会到，我们住的地方在宇宙里多渺小又多特别。</p></div>
+</div>
+
+<div class="pick">
+  <h2>本周就选一个</h2>
+  <p>没空就做<b>追月亮：画一周月相</b>——零成本、零准备，每晚只花五分钟，牵孩子到窗边看一眼、涂一个圈就完事。它最适合忙人：不用整块时间，靠的是「连续」而非「投入」。坚持一两周，孩子亲眼看月亮一点点变胖又变瘦，会自己问出「为什么」——那一刻比讲十遍知识都管用。它还把「睡前一起抬头看天」变成你家的固定仪式，这才是真正留下来的东西。</p>
+</div>
+
+<footer>过程比结果重要，陪伴比教育重要。</footer>
+</div>
+</body>
+</html>
